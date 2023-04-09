@@ -56,6 +56,7 @@ const valueUp = () => {
       </div>
       <img
         src={zen}
+        loading="lazy"
         className="absolute w-[30%] left-[35%] top-[138px]"
         alt=""
       />
@@ -78,7 +79,7 @@ const valueUp = () => {
               </g>
             </g>
           </svg>
-          <img src={phone} className="absolute w-3/5 left-[20%] top-4" alt="" />
+          <img  src={phone} loading="lazy" className="absolute w-3/5 left-[20%] top-4" alt="" />
           <button className="mt-auto text-xs text-gray-800 text-center mx-auto">
             METAMASK LOGIN
           </button>
