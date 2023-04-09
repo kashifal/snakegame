@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import phone from "../assets/phone-bg.png";
 import zen from "../assets/zen.png";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 function Icon() {
   const [screen, setScreen] = useState(1);
@@ -54,9 +55,9 @@ const valueUp = () => {
           onClick={valueUp}
         ></div>
       </div>
-      <img
+      <LazyLoadImage
         src={zen}
-        loading="lazy"
+        loading="lazy" 
         className="absolute w-[30%] left-[35%] top-[138px]"
         alt=""
       />
@@ -79,7 +80,7 @@ const valueUp = () => {
               </g>
             </g>
           </svg>
-          <img  src={phone} loading="lazy" className="absolute w-3/5 left-[20%] top-4" alt="" />
+          <LazyLoadImage   src={phone} loading="lazy" className="absolute w-3/5 left-[20%] top-4" alt="" />
           <button className="mt-auto text-xs text-gray-800 text-center mx-auto">
             METAMASK LOGIN
           </button>
