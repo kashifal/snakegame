@@ -2450,6 +2450,7 @@ const valueUp = () => {
             stroke="url(#y)"
             className="cursor-pointer"
             strokeWidth="0.65"
+            onClick={() => setValue(2)}
             d="M88.456 37.587c15.108 0 27.355-11.154 27.355-17.86 0-6.708-12.247-12.145-27.355-12.145S61.1 13.02 61.1 19.726s12.248 17.861 27.356 17.861z"
             filter="url(#he)"
             transform="translate(20.8 337.7)"
@@ -2637,11 +2638,11 @@ const valueUp = () => {
             <use fill="#000" filter="url(#gp)" xlinkHref="#dr"></use>
             <use fill="#3A3F43" xlinkHref="#dr"></use>
           </g>
-          <g transform="translate(33.293 344.77)">
+          <g transform="translate(33.293 344.77)" onClick={() => setValue(5)} className="cursor-pointer">
             <use fill="#000" filter="url(#go)" xlinkHref="#dq"></use>
             <use fill="#3A3F43" xlinkHref="#dq"></use>
           </g>
-          <g transform="translate(33.293 344.77)">
+          <g className="cursor-pointer" transform="translate(33.293 344.77)" onClick={() => setValue(4)}>
             <use fill="#000" filter="url(#gn)" xlinkHref="#dp"></use>
             <use fill="#3A3F43" xlinkHref="#dp"></use>
           </g>
@@ -2649,7 +2650,7 @@ const valueUp = () => {
             <use fill="#000" filter="url(#gm)" xlinkHref="#do"></use>
             <use fill="#3A3F43" xlinkHref="#do"></use>
           </g>
-          <g transform="translate(33.293 344.77)">
+          <g className="cursor-pointer" transform="translate(33.293 344.77)" onClick={() => setValue(2)}>
             <use fill="#000" filter="url(#gl)" xlinkHref="#dn"></use>
             <use fill="#3A3F43" xlinkHref="#dn"></use>
           </g>
@@ -2736,6 +2737,8 @@ const valueUp = () => {
           </g>
           <path
             fill="#383F46"
+            className="cursor-pointer"
+            onClick={() => setValue(3)}
             d="M165.76 358.49h-1.16v-.56a1.81 1.81 0 01-.683.486c-.262.106-.526.16-.793.16a1.995 1.995 0 01-1.393-.53c-.386-.353-.58-.845-.58-1.476 0-.645.189-1.136.565-1.472.376-.336.851-.504 1.426-.504.527 0 .984.177 1.369.53v-1.893h1.248v5.258zm-3.333-1.988c0 .407.07.7.209.882.201.263.482.395.844.395.287 0 .531-.099.733-.296.201-.197.302-.492.302-.884 0-.438-.098-.753-.293-.945a1.025 1.025 0 00-.751-.289c-.296 0-.544.095-.744.285-.2.19-.3.474-.3.852zm7.556.775l1.244.168c-.16.369-.413.649-.758.841-.345.193-.777.29-1.295.29-.82 0-1.428-.217-1.822-.65-.31-.347-.466-.784-.466-1.313 0-.631.204-1.125.613-1.483.409-.357.926-.536 1.55-.536.703 0 1.257.187 1.662.561.406.374.6.948.582 1.72h-3.128c.01.299.11.532.302.698.193.166.433.249.72.249a.89.89 0 00.494-.13.787.787 0 00.302-.415zm.07-1.019c-.008-.292-.101-.513-.28-.665a.965.965 0 00-.648-.228.97.97 0 00-.675.24c-.178.16-.265.378-.262.653h1.866zm1.971-1.578h.694v-.287c0-.32.042-.56.126-.717.085-.158.24-.287.467-.386.226-.1.513-.149.86-.149.355 0 .703.043 1.044.13l-.169.702a3.028 3.028 0 00-.573-.057c-.18 0-.31.034-.389.102-.079.068-.118.2-.118.393v.269h.933v.793h-.933v3.016h-1.248v-3.016h-.694v-.793z"
           ></path>
           <g transform="translate(101.4 7.5)">
