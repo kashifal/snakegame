@@ -4,39 +4,41 @@ import zen from "../assets/zen.png";
 
 function Icon() {
   const [screen, setScreen] = useState(1);
-  const [loading, setLoading] = useState(false);
-  const [value, setValue] = useState(0);
-  const price = 0.2;
+const [loading, setLoading] = useState(false);
+const [value, setValue] = useState(0);
+const price = 0.2;
 
-  const Authenticate = () => {
-    if (screen === 1) {
-      setValue(0);
-    }
-
-    if (screen === 2) {
-      setLoading(true);
-      setTimeout(() => {
-        setLoading(false);
-        setScreen(screen + 1);
-      }, 2000);
-    } else {
-      setScreen(screen + 1);
-    }
-  };
-
-  const deleteValue = () => {
+const Authenticate = () => {
+  if (screen === 1) {
     setValue(0);
-  };
+  }
 
-  const valueDown = () => {
-    setValue(value - 1);
-  };
-  const valueUp = () => {
-    if (value === 5) {
-      return;
-    }
-    setValue(value + 1);
-  };
+  if (screen === 2) {
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false);
+      setScreen(screen + 1);
+    }, 2000);
+  } else {
+    setScreen(screen + 1);
+  }
+};
+
+const deleteValue = () => {
+  setValue(0);
+};
+
+const valueDown = () => {
+  setValue(Math.max(0, value - 1)); // clamp to a minimum value of 0
+};
+
+const valueUp = () => {
+  if (value === 5) {
+    return;
+  }
+  setValue(value + 1);
+};
+
   return (
     <div className="h-[700px] relative">
       <div
