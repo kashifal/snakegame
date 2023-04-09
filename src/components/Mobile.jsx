@@ -2476,6 +2476,7 @@ const valueUp = () => {
             transform="matrix(-1 0 0 1 327.84 337.7)"
             onClick={() => setValue(3)}
             className=" focus:outline-none  cursor-pointer focus:bg-transparent  focus:outline-none focus:bg-transparent"
+            style={{ outline: 'none' }}
           >
             <use fill="#000" filter="url(#gx)" xlinkHref="#l"></use>
             <use fill="url(#b)" xlinkHref="#l"></use>
