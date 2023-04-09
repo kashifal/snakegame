@@ -46,14 +46,14 @@ const valueUp = () => {
         className="absolute w-24 h-8 bg-transparent right-10 top-[400px] flex rounded-xl opacity-0  overflow-hidden items-center"
         style={{ transform: "rotate(-27deg)" }}
       >
-        <div
+        <button
           className="w-1/2 h-full bg-green-400  focus:outline-none  cursor-pointer focus:bg-transparent"
           onClick={valueDown}
-        ></div>
-        <div
+        ></button>
+        <button
           className="w-1/2 h-full bg-green-600  focus:outline-none  cursor-pointer focus:bg-transparent"
           onClick={valueUp}
-        ></div>
+        ></button>
       </div>
       <LazyLoadImage
         src={zen}
