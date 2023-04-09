@@ -47,11 +47,11 @@ const valueUp = () => {
         style={{ transform: "rotate(-27deg)" }}
       >
         <div
-          className="w-1/2 h-full bg-green-400 cursor-pointer"
+          className="w-1/2 h-full bg-green-400  focus:outline-none  cursor-pointer focus:bg-transparent"
           onClick={valueDown}
         ></div>
         <div
-          className="w-1/2 h-full bg-green-600 cursor-pointer"
+          className="w-1/2 h-full bg-green-600  focus:outline-none  cursor-pointer focus:bg-transparent"
           onClick={valueUp}
         ></div>
       </div>
@@ -2437,7 +2437,7 @@ const valueUp = () => {
             filter="url(#hi)"
             transform="translate(20.8 337.7)"
             onClick={() => setValue(1)}
-            className="cursor-pointer"
+            className=" focus:outline-none  cursor-pointer focus:bg-transparent focus:outline-none focus:bg-transparent"
           >
             <use fill="#000" filter="url(#hh)" xlinkHref="#n"></use>
             <use fill="url(#b)" xlinkHref="#n"></use>
@@ -2457,7 +2457,7 @@ const valueUp = () => {
             filter="url(#hd)"
             transform="translate(20.8 337.7)"
             onClick={() => setValue(2)}
-            className="cursor-pointer"
+            className=" focus:outline-none  cursor-pointer focus:bg-transparent  focus:outline-none focus:bg-transparent"
           >
             <use fill="#000" filter="url(#hc)" xlinkHref="#m"></use>
             <use fill="url(#x)" xlinkHref="#m"></use>
@@ -2475,7 +2475,7 @@ const valueUp = () => {
             filter="url(#gy)"
             transform="matrix(-1 0 0 1 327.84 337.7)"
             onClick={() => setValue(3)}
-            className="cursor-pointer"
+            className=" focus:outline-none  cursor-pointer focus:bg-transparent  focus:outline-none focus:bg-transparent"
           >
             <use fill="#000" filter="url(#gx)" xlinkHref="#l"></use>
             <use fill="url(#b)" xlinkHref="#l"></use>
@@ -2488,14 +2488,14 @@ const valueUp = () => {
             d="M19.025 64.348c12.017 2.534 27.721 2.742 29.192-3.528 1.47-6.24-11.575-18.428-23.592-21.536-12.016-3.214-21.137-.333-22.607 6.48-1.47 6.844 4.99 15.943 17.007 18.584z"
             filter="url(#if)"
             transform="translate(20.8 337.7)"
-            className="cursor-pointer"
+            className=" focus:outline-none  cursor-pointer focus:bg-transparent"
             onClick={() => setValue(4)}
           ></path>
           <g
             filter="url(#ie)"
             transform="translate(20.8 337.7)"
             onClick={() => setValue(4)}
-            className="cursor-pointer"
+            className=" focus:outline-none  cursor-pointer focus:bg-transparent"
           >
             <use fill="#000" filter="url(#id)" xlinkHref="#r"></use>
             <use fill="url(#b)" xlinkHref="#r"></use>
@@ -2515,7 +2515,7 @@ const valueUp = () => {
             filter="url(#hz)"
             transform="translate(20.8 337.7)"
             onClick={() => setValue(5)}
-            className="cursor-pointer"
+            className=" focus:outline-none  cursor-pointer focus:bg-transparent"
           >
             <use fill="#000" filter="url(#hy)" xlinkHref="#q"></use>
             <use fill="url(#x)" xlinkHref="#q"></use>
@@ -2654,7 +2654,7 @@ const valueUp = () => {
           <g
             transform="translate(33.293 344.77)"
             onClick={() => setValue(3)}
-            className="cursor-pointer"
+            className=" focus:outline-none  cursor-pointer focus:bg-transparent"
           >
             <use fill="#000" filter="url(#gk)" xlinkHref="#ag"></use>
             <use fill="#3A3E3D" xlinkHref="#ag"></use>
@@ -2663,7 +2663,7 @@ const valueUp = () => {
           <g
             transform="translate(33.293 344.77)"
             onClick={() => setValue(1)}
-            className="cursor-pointer"
+            className=" focus:outline-none  cursor-pointer focus:bg-transparent"
           >
             <use fill="#000" filter="url(#gi)" xlinkHref="#dm"></use>
             <use fill="#3A3E3D" xlinkHref="#dm"></use>
@@ -2671,7 +2671,7 @@ const valueUp = () => {
           <g
             transform="translate(33.293 344.77)"
             onClick={() => setValue(2)}
-            className="cursor-pointer"
+            className=" focus:outline-none  cursor-pointer focus:bg-transparent"
           >
             <use fill="#000" filter="url(#gh)" xlinkHref="#dl"></use>
             <use fill="#3A3E3D" xlinkHref="#dl"></use>
@@ -2679,7 +2679,7 @@ const valueUp = () => {
           <g
             transform="translate(33.293 344.77)"
             onClick={() => setValue(5)}
-            className="cursor-pointer"
+            className=" focus:outline-none  cursor-pointer focus:bg-transparent"
           >
             <use fill="#000" filter="url(#es)" xlinkHref="#ct"></use>
             <use fill="#3A3E3D" xlinkHref="#ct"></use>
@@ -2711,7 +2711,7 @@ const valueUp = () => {
           <g
             transform="translate(33.293 344.77)"
             onClick={() => setValue(4)}
-            className="cursor-pointer"
+            className=" focus:outline-none  cursor-pointer focus:bg-transparent"
           >
             <use fill="#000" filter="url(#el)" xlinkHref="#bi"></use>
             <use fill="#3A3E3D" xlinkHref="#bi"></use>
@@ -2774,7 +2774,7 @@ const valueUp = () => {
             ></ellipse>
           </g>
           <g
-            className="cursor-pointer"
+            className=" focus:outline-none  cursor-pointer focus:bg-transparent"
             transform="rotate(48 -266.14 195.08)"
             onClick={deleteValue}
           >
@@ -2825,7 +2825,7 @@ const valueUp = () => {
             <>
               <g
                 transform="translate(27.396 272.46)"
-                className={loading ? "cursor-not-allowed" : "cursor-pointer"}
+                className={loading ? "cursor-not-allowed" : " focus:outline-none  cursor-pointer focus:bg-transparent"}
                 onClick={Authenticate}
               >
                 <use fill="url(#ev)" xlinkHref="#u"></use>
@@ -2834,7 +2834,7 @@ const valueUp = () => {
                 <use stroke="#424242" strokeWidth="1.56" xlinkHref="#u"></use>
               </g>
               <path
-                className={loading ? "cursor-not-allowed" : "cursor-pointer"}
+                className={loading ? "cursor-not-allowed" : " focus:outline-none  cursor-pointer focus:bg-transparent"}
                 onClick={Authenticate}
                 fill="#63AEC1"
                 fillRule="nonzero"
@@ -2855,7 +2855,7 @@ const valueUp = () => {
             <>
               <g
                 transform="translate(27.396 272.46)"
-                className={loading ? "cursor-not-allowed" : "cursor-pointer"}
+                className={loading ? "cursor-not-allowed" : " focus:outline-none  cursor-pointer focus:bg-transparent"}
                 onClick={Authenticate}
               >
                 <use fill="url(#ev)" xlinkHref="#u"></use>
@@ -2864,7 +2864,7 @@ const valueUp = () => {
                 <use stroke="#424242" strokeWidth="1.56" xlinkHref="#u"></use>
               </g>
               <path
-                className={loading ? "cursor-not-allowed" : "cursor-pointer"}
+                className={loading ? "cursor-not-allowed" : " focus:outline-none  cursor-pointer focus:bg-transparent"}
                 onClick={Authenticate}
                 fill="#63AEC1"
                 fillRule="nonzero"
@@ -2885,7 +2885,7 @@ const valueUp = () => {
             <a href="google.com">
               <g
                 transform="translate(27.396 272.46)"
-                className={loading ? "cursor-not-allowed" : "cursor-pointer"}
+                className={loading ? "cursor-not-allowed" : " focus:outline-none  cursor-pointer focus:bg-transparent"}
                 onClick={Authenticate}
               >
                 <use fill="url(#ev)" xlinkHref="#u"></use>
@@ -2894,7 +2894,7 @@ const valueUp = () => {
                 <use stroke="#424242" strokeWidth="1.56" xlinkHref="#u"></use>
               </g>
               <path
-                className={loading ? "cursor-not-allowed" : "cursor-pointer"}
+                className={loading ? "cursor-not-allowed" : " focus:outline-none  cursor-pointer focus:bg-transparent"}
                 onClick={Authenticate}
                 fill="#63AEC1"
                 fillRule="nonzero"
