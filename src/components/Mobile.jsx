@@ -2439,15 +2439,16 @@ const valueUp = () => {
             onClick={() => setValue(1)}
             className=" focus:outline-none  cursor-pointer focus:bg-transparent focus:outline-none focus:bg-transparent"
           >
-            <use fill="#000" filter="url(#hh)" xlinkHref="#n"></use>
-            <use fill="url(#b)" xlinkHref="#n"></use>
-            <use fill="url(#a)" fillOpacity="0.51" xlinkHref="#n"></use>
-            <use fill="url(#hg)" fillOpacity="0.012" xlinkHref="#n"></use>
-            <use fill="#000" filter="url(#hf)" xlinkHref="#n"></use>
+            <use className="cursor-pointer" fill="none" filter="url(#hh)" xlinkHref="#n"></use>
+            <use className="cursor-pointer" fill="url(#b)" xlinkHref="#n"></use>
+            <use className="cursor-pointer" fill="url(#a)" fillOpacity="0.51" xlinkHref="#n"></use>
+            <use className="cursor-pointer" fill="url(#hg)" fillOpacity="0.012" xlinkHref="#n"></use>
+            <use className="cursor-pointer" fill="none" filter="url(#hf)" xlinkHref="#n"></use>
           </g>
           <path
-            fill="#585E62"
+            fill="none"
             stroke="url(#y)"
+            className="cursor-pointer"
             strokeWidth="0.65"
             d="M88.456 37.587c15.108 0 27.355-11.154 27.355-17.86 0-6.708-12.247-12.145-27.355-12.145S61.1 13.02 61.1 19.726s12.248 17.861 27.356 17.861z"
             filter="url(#he)"
